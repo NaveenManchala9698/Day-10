@@ -72,6 +72,7 @@ splitMe("My Name is Naveen")
 
 
 // Exercise 4
+
 function deleteOne(x, y) {
     let str = x
     if (y === true) {
@@ -82,3 +83,69 @@ function deleteOne(x, y) {
 }
 
 deleteOne('I am Naveen', true)
+
+// Exercise 5
+
+function onlyLetters(x) {
+    let str = x
+    console.log(str.replace(/[0-9]/g, ''))
+}
+onlyLetters('I have 5 dogs')
+
+
+// Exercise 6
+
+function isThisAnEmail(x) {
+
+}
+
+// Exercise 7
+
+function whatDayIsIt(day) {
+
+}
+
+
+// Exercise 8
+
+function rollTheDices() {
+
+}
+
+// Exercise 9
+
+function howManyDays(dt) {
+
+
+}
+
+// Exercise 10
+
+function isTodayMyBirthday(date) {
+
+}
+
+
+// Arrays & Objects
+
+// Exercise 11
+
+function deleteProp(x, y) {
+
+}
+
+
+// Exercise 12
+
+function oldestMovie() {
+    for (i=0; i<oldestMovie.length; i++) {
+        if(oldestMovie[i].releaseYear < i++) {
+            console.log(oldestMovie.name)
+        } 
+    }
+}
+console.log(oldestMovie.name)
+oldestMovie([
+    {name : 'RRR', releaseYear : 1999},
+    {name : 'KGF', releaseYear : 2001}
+])
