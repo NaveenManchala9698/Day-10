@@ -64,7 +64,21 @@ whoIsBigger(6, 4)
 
 // Exercise 3
 
-function splitMe() {
-    console.log(splitMe.split(''))
+function splitMe(text) {
+    let newArr = text.trim().split(" ")
+    console.log(newArr)
 }
-splitMe('I am Happy')
+splitMe("My Name is Naveen")
+
+
+// Exercise 4
+function deleteOne(x, y) {
+    let str = x
+    if (y === true) {
+        console.log(str.slice(1))
+    } else {
+        console.log(str.slice(-1))
+    }
+}
+
+deleteOne('I am Naveen', true)
