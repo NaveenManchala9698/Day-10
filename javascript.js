@@ -96,7 +96,11 @@ onlyLetters('I have 5 dogs')
 // Exercise 6
 
 function isThisAnEmail(x) {
-
+    if(x.includes(@) && x=.includes(.)) {
+        return true
+    }else {
+        return false
+    }
 }
 
 // Exercise 7
@@ -359,7 +363,7 @@ const movies = [
 // Exercise 11
 
 function deleteProp(x, y) {
-
+    console.log(delete)
 }
 
 
@@ -387,8 +391,8 @@ countMovies(movies)
 
 // Exercise 14
 
-function onlyTheTitles(x) {
-    const movies = x
+function onlyTheTitles(moviesArray) {
+    for(let i 
     console.log(movies.Title)
 }
 
